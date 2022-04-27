@@ -1,20 +1,24 @@
 # FizzBuzz
 
-Reads the list of numbers in a file and replaces multiples of 3 with Fizz, multiples of 5 with Buzz and multiples of 3 and 5 with FizzBuzz.
+Reads the list of numbers from a file and replace multiples of 3 with Fizz, multiples of 5 with Buzz and multiples of 3 and 5 with FizzBuzz.
+
+## Dependencies
+
+  * Erlang and Elixir
 
 ## Start
 
   * Start application with `iex -S mix`
 
-## Example
+## Examples
 
   * Read the file with `FizzBuzz.build("numbers.txt")`
 
-## Test
+## Tests
 
   * Run the tests with `mix test`
 
-## Reference
+## References
 
-  * Project developed in the course: https://www.udemy.com/course/elixir-e-phoenix-do-zero
+  * Project taken from the course: https://www.udemy.com/course/elixir-e-phoenix-do-zero
   * Official language website: https://elixir-lang.org
